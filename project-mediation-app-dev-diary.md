@@ -30,6 +30,12 @@ If I get bored of the process thinking, I might design some little blue critters
 
 So I think I'll start with the mediator wireframes, simply because without the mediator, at least initially, there will be no partners, and that's how they will be invited into the system. For this we need:
 
-Mediator login page
-Case CRUD
-User CRUD
+- Mediator login page
+- Case CRUD
+- User CRUD
+
+So I've worked through the login pages, and the case indexes. See below. 
+
+![MediateMe](./assets/mediate-me-case-index.png)
+
+I'm now thinking about how best to display the case data to the mediator.
