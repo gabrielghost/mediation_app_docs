@@ -39,3 +39,10 @@ So I've worked through the login pages, and the case indexes. See below.
 ![MediateMe](./assets/mediate-me-case-index.png)
 
 I'm now thinking about how best to display the case data to the mediator.
+
+
+## Day 2 - 6th February 2018
+
+Today I'm going to focus on the user show page - at the moment we're still looking at everything from the view of the mediator, as that will need the most funtionality - for users we can just hide things where appropriate. Probably I'll lay out all of the information for now, only to review later. The aim of today is to complete all of the mediator account views, and hopefully move onto the user account views by this evening. Image below is the progress of the client profile page from yesterday.
+
+![MediateMe](./assets/mediate-me-user-show.png)
