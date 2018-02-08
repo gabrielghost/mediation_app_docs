@@ -72,3 +72,15 @@ The main 'to do' items at the moment are as follows:
 - deciding where the attachements should be placed is an important point, and will be decided based on what additional information needs to go alongside them - probably quite detailed instructions about what is needed will be required here
 - be good to establish how the 'split' process works, so we can best mimic that - probably with something like a wizard?
 - is the best way of displaying all of the information in a list with expandable areas, like it is at present, or should the screen be split into two - with main headers on the left, and figures on the right? Only issue with this is when migrating to mobile or tablet this might be harder, though could possibly make use of the hierarchical menu (similar to the iPod from yesteryear....)
+
+Call with M:
+
+- Look into a coulour scheme that works 
+- good health for children, not right - health, then tick for good, asterisk for information
+- split proposals should only be editable by the mediator and called 'option 1', 'option 2'
+- expenditure - no documents needed so much more simple
+
+
+## Day 5 - 9th February 2018
+
+Ok so key today is to NAIL the finance and split wizards so we have at least a line in the stand from which we can refer to.
