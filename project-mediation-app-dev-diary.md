@@ -47,5 +47,28 @@ Today I'm going to focus on the user show page - at the moment we're still looki
 
 ![MediateMe](./assets/mediate-me-user-show.png)
 
+![Client profile](./assets/client-profile.png)
+
 ## Day 3 - 7th February 2018
 
+Today I extended the case profile, and dug deeper in to the finances:
+
+![Case profile](./assets/case-profile.png)
+
+![Client profile](./assets/client-profile-details.png)
+
+![Client profile](./assets/client-profile-income.png)
+
+![Client profile](./assets/client-profile-income-2.png)
+
+## Day 4 - 8th February 2018
+
+Today I'm going to review the progress thus far and decide on design decisions that I've made, or need to make. It's a review of the short sprint that has been made. I'll also speak to the client to see how they are feeling about the designs so far.
+
+The main 'to do' items at the moment are as follows:
+
+- a way of representing when a client hasn't filled in the referral form, and perhaps a progress bar attached to that
+- mediators should be able to edit any of the entries? perhaps, though the edit should be logged
+- deciding where the attachements should be placed is an important point, and will be decided based on what additional information needs to go alongside them - probably quite detailed instructions about what is needed will be required here
+- be good to establish how the 'split' process works, so we can best mimic that - probably with something like a wizard?
+- is the best way of displaying all of the information in a list with expandable areas, like it is at present, or should the screen be split into two - with main headers on the left, and figures on the right? Only issue with this is when migrating to mobile or tablet this might be harder, though could possibly make use of the hierarchical menu (similar to the iPod from yesteryear....)
