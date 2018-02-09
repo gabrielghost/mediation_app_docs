@@ -120,3 +120,7 @@ Ok so quickly drafted a split wizard - think it's looking pretty neat. The main 
 Ok so didn't go for a walk, and not totally sure this is optimum, but basically the duplicate button acts as a mute, and turns off this entry. The user can have the option to turn it off for all subsequent split drafts too. Perhaps this will be annoying to implement but it's the clearest way I can think of doing it at this moment.
 
 ![Asset split wizard duplicate](./assets/asset-split-wizard-duplicate.png)
+
+I've added a total section at the bottom which should negate the need of a 'summary' page.
+
+![Asset split wizard total](./assets/asset-split-wizard-total.png)
