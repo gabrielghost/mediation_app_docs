@@ -84,3 +84,31 @@ Call with M:
 ## Day 5 - 9th February 2018
 
 Ok so key today is to NAIL the finance and split wizards so we have at least a line in the stand from which we can refer to.
+
+Ok the financial wizard has been blocked out. Kinda hard to know whether it will be useful or annoying to use in this format - here are the steps:
+
+### 1
+
+![Wizard config 1](./assets/wizard-config-1.png)
+
+### 2
+
+![Wizard config 2](./assets/wizard-config-2.png)
+
+### 3
+
+![Wizard config 3](./assets/wizard-config-3.png)
+
+### 4
+
+![Wizard config 4](./assets/wizard-config-4.png)
+
+### 5
+
+![Wizard config 5](./assets/wizard-config-5.png)
+
+### 6
+
+![Wizard config 6](./assets/wizard-config-6.png)
+
+I've also added some side navigation icons to quickly navigate through the site - perhaps they'll not be needed, but I felt that when the user is within the wizard, they need a way of getting back to the main page.
