@@ -112,3 +112,11 @@ Ok the financial wizard has been blocked out. Kinda hard to know whether it will
 ![Wizard config 6](./assets/wizard-config-6.png)
 
 I've also added some side navigation icons to quickly navigate through the site - perhaps they'll not be needed, but I felt that when the user is within the wizard, they need a way of getting back to the main page.
+
+Ok so quickly drafted a split wizard - think it's looking pretty neat. The main thing I need to work out is how to manage the duplicates. That's something that'll need to be worked out on a walk or something.
+
+![Asset split wizard 1](./assets/asset-split-wizard-1.png)
+
+Ok so didn't go for a walk, and not totally sure this is optimum, but basically the duplicate button acts as a mute, and turns off this entry. The user can have the option to turn it off for all subsequent split drafts too. Perhaps this will be annoying to implement but it's the clearest way I can think of doing it at this moment.
+
+![Asset split wizard duplicate](./assets/asset-split-wizard-duplicate.png)
