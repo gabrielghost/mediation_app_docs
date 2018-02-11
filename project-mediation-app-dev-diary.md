@@ -124,3 +124,16 @@ Ok so didn't go for a walk, and not totally sure this is optimum, but basically 
 I've added a total section at the bottom which should negate the need of a 'summary' page.
 
 ![Asset split wizard total](./assets/asset-split-wizard-total.png)
+
+## Weekend - 10th February 2018
+
+Call w/ client:
+
+- Take out expenditure section as part of the wizard set-up section
+- financial information wizard - take away the check summary - or augment it with documents required
+- Remove numbers in the step by step (big circles)
+- Re-think duplicate templates - like when there are two additional houses for example
+- Question marks over everything
+- Account number and date
+- Add an interim stage which agrees all of the assets and then we go onto splits
+- 
