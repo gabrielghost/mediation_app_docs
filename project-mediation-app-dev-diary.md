@@ -136,4 +136,88 @@ Call w/ client:
 - Question marks over everything
 - Account number and date
 - Add an interim stage which agrees all of the assets and then we go onto splits
-- 
+
+## Day 6 - 12th February 2018
+
+Over the weekend I played around with some illustrations using my new graphics pad - kinda happy with how they came out - can decide whether they are good enough for the final design later:
+
+![New illustrations 1](./assets/new-illustrations-1.png)
+
+![New illustrations 2](./assets/new-illustrations-2.png)
+
+![New illustrations 3](./assets/new-illustrations-3.png)
+
+As for today - I need to nail the entire of the site structure to ensure that there are no missing pieces of the jigsaw by the time the friday deadline of locking in all of the site designs comes around. Not entirely sure the best way of mapping this all out visually as it's the first time I've done something like this - probably a bit of trial and error will be the best way.
+
+Probably I'll do it here first, then will probably simply use the sketch pages I've designed to plot it out....perhaps that will come up against issues when needing to render off the entire diagram to discuss. In which case, omnigraffle may be the best, simply because I have used it in the past. I'll have a play with it later.
+
+First, we'll start with the mediator flow, then move onto the user flow. I'll have a call with M to decide whether we need a solicitor flow.
+
+#### - Mediator flow
+
+1. Landing page
+	- Login
+	- Info
+	- Email capture
+	- Links to:
+		- About us
+		- Careers/Jobs
+		- Apply to be a registered solicitor
+		- Apply to be a registered mediator
+		- Terms & Conditions
+
+2. Login page
+3. Case index
+	- New case
+	- Active cases
+	- Closed cases
+4. Case show
+	- Case info
+	- Client A info
+		- personal information (and completion percentage)
+		- financial information (and completion percentage)
+		- solicitor information (and completion percentage)
+	- Client B info
+		- personal information (and completion percentage)
+		- financial information (and completion percentage)
+		- solicitor information (and completion percentage)
+
+
+	- Consolidated financial information
+		- Draft - mediator can choose to make this visible in the clients' accounts
+		- Finalized
+	- Splits
+		- Drafts - mediator can choose to make these visible in the clients' accounts
+		- Finalized 	
+5. Compose MOU
+	- TBD
+
+#### - User flow
+
+Client A
+
+1. Recieve email
+2. Navigate to website and asked to give password
+3. Fill in referral form
+4. View case profile with the step by step process visible
+5. Fill in the financial information
+6. Rest of the process is like the mediator's but with more restrictions on visibility
+
+Client B
+
+1. Recieve email
+2. Navigate to website and asked to give password
+3. Fill in referral form
+4. View case profile with the step by step process visible (will it be ok to take Client A's case information, or will there be conflicting figures? so we need to reconcile this at all?)
+5. Fill in the financial information
+6. Rest of the process is like the mediator's but with more restrictions on visibility
+
+#### - Solicitor flow
+
+Possibly not relevant for MVP, but worth working out whether it's appropriate or not.
+
+## Day 7 - 13th February 2018
+
+So, having designed a really rough 'case show' page which updates the additional steps that have been outlined above (namely financial summary, split proposals and MoU Generation). See below. This leads us smoothly into needing an appropriate mechanic for the Financial Summary and MoU Generation.
+
+![Case show update](./assets/case-show-update-7.png)
