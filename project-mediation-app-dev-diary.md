@@ -221,3 +221,25 @@ Possibly not relevant for MVP, but worth working out whether it's appropriate or
 So, having designed a really rough 'case show' page which updates the additional steps that have been outlined above (namely financial summary, split proposals and MoU Generation). See below. This leads us smoothly into needing an appropriate mechanic for the Financial Summary and MoU Generation.
 
 ![Case show update](./assets/case-show-update-7.png)
+ 
+
+##Day 8
+
+Waiting on a call to go over the last three remaining sections:
+- Mou generation mechanic
+- Income and expenditure integration
+- Integration level of solicitors for MVP
+
+##Day 9
+
+Call overview:
+
+- MOU generation - how does this work in practice
+       - fall back is just generating with no editable features
+       - ideally the MOU should be editable inline - I'll build a design which allows for this
+- Income and expenditure
+       - think of the best way of implementing - it needs to be alongside the assets but under a different tab perhaps
+- How do solicitors plug into the system?
+       - build it as if legal advice will be given, but that functionality doesn't need to be there front-end for now
+       - Include notes section on every asset to future proof
+       - Include section for mediator notes and 
