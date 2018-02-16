@@ -247,3 +247,6 @@ Call overview:
 ##Day 10
 
 Today I'm going to tie up all of the loose ends from the designs - polish some in places where it is needed, and add the additional functionality discussed on the call yesterday. This should set me up nicely for next week where I'll re-engege with the back-end API and get that up and running.
+
+*Note to self* - as I'm working through the MOU wizard, I'm picking up some bits and bobs that might be nice to integrate into the case show page - as mediator information of some sort. I'm noting this here so I don't forget. Particularly the arrangements with the children - be nice to have this part of the MoU prepopulated.
+
