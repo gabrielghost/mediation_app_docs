@@ -242,4 +242,8 @@ Call overview:
 - How do solicitors plug into the system?
        - build it as if legal advice will be given, but that functionality doesn't need to be there front-end for now
        - Include notes section on every asset to future proof
-       - Include section for mediator notes and 
+       - Include section for mediator notes and mortgage ability
+
+##Day 10
+
+Today I'm going to tie up all of the loose ends from the designs - polish some in places where it is needed, and add the additional functionality discussed on the call yesterday. This should set me up nicely for next week where I'll re-engege with the back-end API and get that up and running.
