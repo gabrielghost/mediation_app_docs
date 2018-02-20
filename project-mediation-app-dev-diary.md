@@ -264,3 +264,77 @@ In the end, I made some significant progress here, but not quite complete - need
 
 Ok something that I've thought of while working through this SQL and getting a schema that will work neatly with all of these nested documents is once the partners submit a financial summray that is final, they can't go back and amend it. Any updated figures need to be given to the mediator to edit their end. Why is this? It adds complexity and isn't worth focussing on for the MVP.
 
+Ok so today I've worked through the schema in a way that I think is pretty workable and I'm pretty happy with it. It's inevitably going to need some tweaking over the course of time but it's a good basis to start I think.
+
+The focus tomorrow is on implementing an API so that all of the routes and endpoints work as expected. It's worth now just working out exactly what the plan for this API is, what kind of requests the front-end is going to ask for, and how they might be provided.
+
+Initially, authentication is something that will need to be integrated - something that I'll have to work through tomorrow when I've looked through the code. I've decided that separate log-in sections for Solicitors, Mediators and Clients might be good, to keep everything super separate.
+
+So, aside from Authentication - what is needed?
+
+Well, it's a pretty standard process of CRUD for each of the record types I think, being able to manipulate all of those from the front-end is important - at least initially - some unused routes can be deprecated later. So what do we have?
+
+
+#### Client 
+	- Create
+	- Read
+	- Update
+	- Delete
+#### Case
+##### 	Case
+	- Create
+	- Read
+	- Update
+	- Delete
+##### 	SplitOrSummaryHub
+	- Create
+	- Read
+	- Update
+	- Delete
+##### 	SplitOrSummaryAsset
+	- Create
+	- Read
+	- Update
+	- Delete
+##### Children
+	- Create
+	- Read
+	- Update
+	- Delete
+##### MoU
+	- Create
+	- Read
+	- Update
+	- Delete
+#### Mediator
+	- Create
+	- Read
+	- Update
+	- Delete
+#### Finance
+##### 	AssetClass
+		- Create
+		- Read
+		- Update
+		- Delete
+##### 	Attachments
+		- Create
+		- Read
+		- Update
+		- Delete
+##### 	Finance
+		- Create
+		- Read
+		- Update
+		- Delete
+#### Solicitor
+	- Create
+	- Read
+	- Update
+	- Delete 
+
+Looks like a lot but it should involve a lot of the same code over and over with subtle differences, it might also turn out that some of it isn't needed.
+
+The focus for tomorrow will be getting all of these end points up and running and operational WITHOUT the authentication. I'll then layer on top the authentication on Thursday to ensure that it all works like it should. Some seed data tomorrow might be a nice idea too. 
+
+Plotting out tomorrow's activity has got me excited because I can really see how this API is going to neatly slot together, and I'm very happy that I have worked on the database structure in this way. Means we'll have minimal mess in the future. A good day - and looking forward to an even better one tomorrow.
