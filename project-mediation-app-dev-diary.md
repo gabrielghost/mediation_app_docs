@@ -250,3 +250,17 @@ Today I'm going to tie up all of the loose ends from the designs - polish some i
 
 *Note to self* - as I'm working through the MOU wizard, I'm picking up some bits and bobs that might be nice to integrate into the case show page - as mediator information of some sort. I'm noting this here so I don't forget. Particularly the arrangements with the children - be nice to have this part of the MoU prepopulated.
 
+##Day 13
+
+Today it's all about starting with the back-end database, and the API that the front-end will use.
+
+The designs aren't 100% finished, but are complete to the level required to code the system.
+
+The database structure is important now, and one that has been mapped out into quite some detail already in the past iterations. Now it's key to go through it all with a fine tooth comb and get it nailed. This may take the most of today to get right - although I'd hope to also get the SQL built so that it can be plugged into the API tomorrow, which will take a day or so to set up, with the routes getting added on Wednesday. If I work with ultimate focus I should be able to deploy the API on thursday, leaving friday to mop everything up and test the server part of the site - should be super exciting. 
+
+## Day 14
+
+In the end, I made some significant progress here, but not quite complete - need to decide whether I use JSON in some of the fields which get repeated, or if I need to access some fields within the JSON fields specifically, then I should perhaps do the work of putting all of those JSON fields into SQL tables.
+
+Ok something that I've thought of while working through this SQL and getting a schema that will work neatly with all of these nested documents is once the partners submit a financial summray that is final, they can't go back and amend it. Any updated figures need to be given to the mediator to edit their end. Why is this? It adds complexity and isn't worth focussing on for the MVP.
+
