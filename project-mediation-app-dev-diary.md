@@ -262,9 +262,9 @@ The database structure is important now, and one that has been mapped out into q
 
 In the end, I made some significant progress here, but not quite complete - need to decide whether I use JSON in some of the fields which get repeated, or if I need to access some fields within the JSON fields specifically, then I should perhaps do the work of putting all of those JSON fields into SQL tables.
 
-Ok something that I've thought of while working through this SQL and getting a schema that will work neatly with all of these nested documents is once the partners submit a financial summray that is final, they can't go back and amend it. Any updated figures need to be given to the mediator to edit their end. Why is this? It adds complexity and isn't worth focussing on for the MVP.
+Ok something that I've thought of while working through this SQL and getting a schema that will work neatly with all of these nested documents is once the partners submit a financial summary that is final, they can't go back and amend it. Any updated figures need to be given to the mediator to edit their end. Why is this? It adds complexity and isn't worth focussing on for the MVP.
 
-Ok so today I've worked through the schema in a way that I think is pretty workable and I'm pretty happy with it. It's inevitably going to need some tweaking over the course of time but it's a good basis to start I think.
+Ok so today I've worked through the schema in a way that I think is pretty workable and I'm pretty happy with it. It's inevitably going to need some tweaking over the course of time but it's a good basis to start I think. I've ended up not relying on JSON in many areas, other than some fields where multiple mortgages might be required, but in reality infrequenly will. I may decide to jettison even those fields for a less exception-based table format.
 
 The focus tomorrow is on implementing an API so that all of the routes and endpoints work as expected. It's worth now just working out exactly what the plan for this API is, what kind of requests the front-end is going to ask for, and how they might be provided.
 
@@ -338,3 +338,12 @@ Looks like a lot but it should involve a lot of the same code over and over with
 The focus for tomorrow will be getting all of these end points up and running and operational WITHOUT the authentication. I'll then layer on top the authentication on Thursday to ensure that it all works like it should. Some seed data tomorrow might be a nice idea too. 
 
 Plotting out tomorrow's activity has got me excited because I can really see how this API is going to neatly slot together, and I'm very happy that I have worked on the database structure in this way. Means we'll have minimal mess in the future. A good day - and looking forward to an even better one tomorrow.
+
+## Day 15
+
+Ok so after a slow start today, got some good stuff done. It's 12.48am now so think it's time to sleep. All of the routes are done except the case routes, which should be pretty straight forward to polish off tomorrow. Looking forward to it. Once they are done, will layer on top the various authentication for the different users - which should be pretty much baked in anyway, but need to be mindful of which users can access which data - only if they have a JWT token can they access data, and even then only the user ID contained within the JWT token can be accessed. Although this is a subject to dive into tomorrow.
+
+I'd love to be able to finish the API tomorrow for deployment on Friday - that would leave us in a super good position going into next week where we'd start on the front-end build sprint which would hopefully take two weeks. And then poof! It might well be done and dusted!
+
+Fingers and toes crossed....
+
