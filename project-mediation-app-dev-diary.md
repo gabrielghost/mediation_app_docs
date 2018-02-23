@@ -347,3 +347,18 @@ I'd love to be able to finish the API tomorrow for deployment on Friday - that w
 
 Fingers and toes crossed....
 
+## Day 16
+
+Ok so today I need to finish off the case crud routes, test them all, make sure they are all working as they should, and then move onto building in the authentication layer. 
+
+I'll cover off all the routes first then come back here to plan out how the authentication layer is going to work.
+
+So, quickly I'm just going to do a brain scan to see if there is any other functionality that I need to be working on beyond what has been mentioned here. I don't think so - though the DB doesn't have things like ability to store where in the wizard the user was, but that's a simple fix and requires no more logic to build out. I think we're pretty much there.
+
+I think I'm going to leave the MOU routes for now, because I haven't had the wizard signed off and it might affect how I am going to create that part of the database. Hmm, I'll do a super basic one now though while I'm in the flow, so when I come back to it i'll just have to add the extra fields.
+
+## Day 17
+
+Users shouldn't be able to access each other's data - mediators, solicitors or clients, but at the moment they can. The best way to address this is have the route controller function look at the jwt token in the request header, take the ID, and only return records which relate to that ID. Any record that doesn't contain the ID that was presented, and isn't a 'sub-record' (i.e. a record which is connected to a parent, which may have a valid ID), will not be shown. The main thing here to double check that in order to get the user's ID from the JWT token, the secret is required. If the secret is required then it's important to have that in somewhere secure. On this basis, thinking about it - this is why the github should now no longer be public - could wait a little longer, but probably sensible to do it from now to be sure.
+
+Auth is working for one of the routes in a minor way - need to go through all three levels of user type and work out which can view and do what with each record. This is probably best done here, and then implemented in code. Nice to have one route working with Mediator to ensure that it's straight forward enough.
