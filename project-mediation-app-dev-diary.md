@@ -383,6 +383,19 @@ Aside from this, the current controllers don't allow us to get the relevant inde
 
 Ok so build this in now, though in testing it's not working for more than one user.
 
+
 ## Day 18 - 26th February
 
 So, didn't get as much done as I'dve liked last week, but nevertheless, I learnt a lot. In terms of goals this week, I think it would be prudent for me to take today to go over the entirety of the API using the site map as a guide to ensure that all foreseeable end points have been created. Once this is done, and perhaps I'm able to deploy the API, then work can start on the front-end. Probably by Wednesday. I'd really like to dig deep this week and knuckle down into some serious hours. 
+
+OK so working through all of the endpoints of the API ensuring that they will all be secure - I.e. users can't access data from endpoints they shouldn't be able to. I'm working through the schematic of the site I made, ensuring that I'm not going to get caught out at any point. 
+
+![API Routes Schematic](./assets/api-routes-schematic.png)
+
+Tomorrow I should finish the schematic with all of the end points before I build them into the API, so I know what needs to do what. This schematic will also be useful when it comes to the front-end development, I'll be able to refer to it.
+
+Ok so re-setting the goals for this week - by end of Friday I'd like to have a DEPLOYED version of the API. So, with any luck I might be able to finish the undeployed version of the API by Wednesday, check and double check all of the routes and tidy everything up on Thurs, for deployment on Friday.
+
+Some notes to take into tomorrow:
+
+- I'd like to re-format all of the database fields to camelCase so that it works with Javascript nicely - there is a potential for confusion in the code between uppercase and lowercase, and for the sake of SQL convention, which I don't believe to be that set in stone anyway, I think I'll go for lowercase. Perhaps this is job number 1 for tomorrow.
