@@ -362,3 +362,27 @@ I think I'm going to leave the MOU routes for now, because I haven't had the wiz
 Users shouldn't be able to access each other's data - mediators, solicitors or clients, but at the moment they can. The best way to address this is have the route controller function look at the jwt token in the request header, take the ID, and only return records which relate to that ID. Any record that doesn't contain the ID that was presented, and isn't a 'sub-record' (i.e. a record which is connected to a parent, which may have a valid ID), will not be shown. The main thing here to double check that in order to get the user's ID from the JWT token, the secret is required. If the secret is required then it's important to have that in somewhere secure. On this basis, thinking about it - this is why the github should now no longer be public - could wait a little longer, but probably sensible to do it from now to be sure.
 
 Auth is working for one of the routes in a minor way - need to go through all three levels of user type and work out which can view and do what with each record. This is probably best done here, and then implemented in code. Nice to have one route working with Mediator to ensure that it's straight forward enough.
+
+Ok so let's do this:
+
+#### Mediator
+
+- Should be able to view the cases that relate to it's Id number, none others.
+- Should be able to view the users that relate to it's Id number
+
+#### Client
+
+- Should be able to view all of it's own stuff, and everything to do with the case, but nothing else
+- Should be able to view it's solicitor, and perhaps all of the solicitors
+
+#### Solicitor
+
+- Should be able to look at case, Mediator, and both Clients, but nothing more
+
+Aside from this, the current controllers don't allow us to get the relevant indexes. I.e. When case index is requested, all of the cases that relate to that user's ID should appear, whether they be clients, solicitors or mediators.
+
+Ok so build this in now, though in testing it's not working for more than one user.
+
+## Day 18 - 26th February
+
+So, didn't get as much done as I'dve liked last week, but nevertheless, I learnt a lot. In terms of goals this week, I think it would be prudent for me to take today to go over the entirety of the API using the site map as a guide to ensure that all foreseeable end points have been created. Once this is done, and perhaps I'm able to deploy the API, then work can start on the front-end. Probably by Wednesday. I'd really like to dig deep this week and knuckle down into some serious hours. 
