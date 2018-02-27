@@ -399,3 +399,21 @@ Ok so re-setting the goals for this week - by end of Friday I'd like to have a D
 Some notes to take into tomorrow:
 
 - I'd like to re-format all of the database fields to camelCase so that it works with Javascript nicely - there is a potential for confusion in the code between uppercase and lowercase, and for the sake of SQL convention, which I don't believe to be that set in stone anyway, I think I'll go for lowercase. Perhaps this is job number 1 for tomorrow.
+
+## Day 19 - 27th February
+
+So I'm going to go through all of the requirements on omnigraffle and then base my development on those. A continuation of yesterday, but completeing omnigraffle schematic before diving into the code.
+
+I also think it's worth reflecting a little on the progress - I think generally it's good. I'm finding the API construction mildly challenging because it's hard to predict what the front end will require - I'm aware that a lot of the SQL requests may need to be re-written at some point, so don't want to build it into a way that is too inflexible.
+
+Ok so I'm going to plot out the schematic in excel so I know exactly what the controllers need to cater for. This will allow me to develop a site-wise continuity for the routes, which having spent a few days on them now, is not happening, and is causing knots in the development.
+
+![Authentication Chart](./assets/authentication-chart.png)
+
+Hasn't rendered that well from excel but you get the idea. Will build out the routes accordingly.
+
+Here's an example:
+
+![Authentication Chart 2](./assets/authentication-chart-2.png)
+
+Haha this is totally how I should have done it from the beginning rather than just diving in hoping that authentication would work itself out. With all of these layers of permissions it's important to map it all out like this, glad I've re-factored the routes now though. Need to go through the controllers and bring them all into line - hoping that I'll be able to standardize the process so that the functions all look the same.
