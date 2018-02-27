@@ -417,3 +417,5 @@ Here's an example:
 ![Authentication Chart 2](./assets/authentication-chart-2.png)
 
 Haha this is totally how I should have done it from the beginning rather than just diving in hoping that authentication would work itself out. With all of these layers of permissions it's important to map it all out like this, glad I've re-factored the routes now though. Need to go through the controllers and bring them all into line - hoping that I'll be able to standardize the process so that the functions all look the same.
+
+What I've done is built a screening function which is set up as per the above schematic which will only allow the user types through that are green. From there the controller functions can compare the requested ID with that of the user to ensure that they are allowed to view that route, but it's good to have one layer done before we get to the controller - will save a lot of duplicated code. While I type this I'm wondering whether it's worth comparing the ID's before we get to the router - it would be if the Id system was standardized, but I think there are some exceptions. If I find it's possible to extract out that layer then I will.
