@@ -429,3 +429,7 @@ I found it kind of tricky to do this - got the first route working but moving on
 ## Day 21 - 1st March
 
 So today I'm going to pick up where I left off last night and see if I can address the issues that I had before. I seem to remember that I was able to get somewhere at the end - let me dive into the code and see if there is anything that I can do to proceed, will report back.
+
+There are so many end points that I almost think it's worth writing tests alongside this so I can run them to ensure that the endpoints still work. Hmm. This will be important moving forward, but perhaps a task for next week? Let's see how repeatable the code I'm about to do is, and if it's not, I'll consider writing tests before continuing the development.
+
+Oof. Got much further today - think I'll be able to complete all of the routes tomorrow which will be a relief. Hopefully will be able to get it deployed when I go back to the UK in preparation for designing up the front end next week. Good stuff!
