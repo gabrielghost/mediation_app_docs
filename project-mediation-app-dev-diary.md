@@ -419,3 +419,13 @@ Here's an example:
 Haha this is totally how I should have done it from the beginning rather than just diving in hoping that authentication would work itself out. With all of these layers of permissions it's important to map it all out like this, glad I've re-factored the routes now though. Need to go through the controllers and bring them all into line - hoping that I'll be able to standardize the process so that the functions all look the same.
 
 What I've done is built a screening function which is set up as per the above schematic which will only allow the user types through that are green. From there the controller functions can compare the requested ID with that of the user to ensure that they are allowed to view that route, but it's good to have one layer done before we get to the controller - will save a lot of duplicated code. While I type this I'm wondering whether it's worth comparing the ID's before we get to the router - it would be if the Id system was standardized, but I think there are some exceptions. If I find it's possible to extract out that layer then I will.
+
+## Day 20 - 28th February
+
+Ok so today I'll continue to work through all of the authentication routes to ensure everything is locked up as it should. Perhaps will have to change the tables of the database here and there in order to check whether the user's ID is allowed to view the record that is in question.
+
+I found it kind of tricky to do this - got the first route working but moving on from there was hard.
+
+## Day 21 - 1st March
+
+So today I'm going to pick up where I left off last night and see if I can address the issues that I had before. I seem to remember that I was able to get somewhere at the end - let me dive into the code and see if there is anything that I can do to proceed, will report back.
