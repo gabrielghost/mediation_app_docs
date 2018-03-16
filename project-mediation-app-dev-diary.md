@@ -475,10 +475,12 @@ What needs to be designed is as follows:
 
 So now to tidy - tomorrow it's wizard time!!
 
-## Day 29 - Friday 15th March
+## Day 29 - Friday 16th March
 
 Not entirely sure that today is wizard day (yesterday it wasn't possible to get any meaningful code down unfortunately).
 
 I've taken down everything from AWS so I don't go over their limits, but good to have everything set up for when I'll need to host things up there. Come to think of it I'm not convinced that the client and server sides need to be on different instances, though I can address that later. Now the key is to set up the front-end development drive in a way that is sustainable and doesn't lead to getting stuck in knots half way through. 
 
 Definitely we need the sketch design done of the client referral wizard, once we have this I'll come back and comment further on where we can go from there.
+
+Ok so I've plotted out the client referral wizards and actually what will be the best thing to build now is the case show page - this is the main central point for the client accounts, and will be the main page that the users navigate to once they log in. Perhaps we could have them go straight to the wizard, but for now they flow via the case show page - it might be nice to introduce that first before inputting data so the clients know why their data is being input and they are aware that it's not just any old form, it's actually an important part of the process.
