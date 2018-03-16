@@ -433,3 +433,52 @@ So today I'm going to pick up where I left off last night and see if I can addre
 There are so many end points that I almost think it's worth writing tests alongside this so I can run them to ensure that the endpoints still work. Hmm. This will be important moving forward, but perhaps a task for next week? Let's see how repeatable the code I'm about to do is, and if it's not, I'll consider writing tests before continuing the development.
 
 Oof. Got much further today - think I'll be able to complete all of the routes tomorrow which will be a relief. Hopefully will be able to get it deployed when I go back to the UK in preparation for designing up the front end next week. Good stuff!
+
+## Day 22 - 2nd March
+
+So ok what do I need to do this morning...
+
+Continue with the routes!! Let's NAIL them today!!
+
+
+
+## Day 23 - 7th March
+
+Routes are continuing. I'm repeating quite a lot of code though so I think once they are all done and I've had a breather I'll draft the 'relevance' authentication thing that checks whether the logged in user, that wants to access the record is 'relevant' to what is being requested.
+
+I think I've realised a simple way to re-write the thing. 
+
+mediateme.com/case/:id/:clienttype/:id/childrenorfinanceetc
+
+This way there is always access to the required case ID to be able to make requests for the relevant ID's using one simple function. In the past the URL has been different so that the case isn't immediately clear. This will allow us to remove the need to have solicitorID, mediatorID's in anything but the case info area.
+
+Hmm, this will involve re-writing all of the routes though - it is a good idea, but perhaps get the routes finished as-is, then deploy to see if it's all working, then do the re-write quickly.
+
+## Day 24 - 8th March
+
+So I've spent all of today configuring the AWS setup to get the API running effectively. Not quite there yet after quite a lot of trial and error but I feel like I'm getting there!! It'll be totally worth it once complete.
+
+## Day 25 - 9th March
+
+8.47am Ok so that's satisfying - we have the API deployed onto AWS Elsatic Beanstalk with the database deployed to RDS! How exciting - it works too!
+
+## Day 28 - Wednesay 14th March
+
+Oops I haven't been super disciplined the last few days on this. So what have I been up to? I've tidied up the back-end routes to remove some code duplication. Beyond that I have started up the front-end client development - nice to see I'd already got past the boilerplate stage already so jumped straight into building out the landing page yesterday and today - which is now done. The email capture field now works - it routes the list to new users rather than anything else at the moment - perhaps I'll change that up later.
+
+Moving forward to stop the app becoming a bit of a moth-ball, I'm going to work through it systematically now to remove any of the unneccessary parts, and streamline it ready for the next section of development.
+
+Once this is complete - I'll look at the next stage of development which will be the client referral wizard, which now I come to look, hasn't been designed in sketch - that should be the first port of call, once it's done in sketch, it should be relatively straightforward. 
+
+What needs to be designed is as follows:
+	- Client dashboard, and how that takes the clients through the process of inputting the information
+
+So now to tidy - tomorrow it's wizard time!!
+
+## Day 29 - Friday 15th March
+
+Not entirely sure that today is wizard day (yesterday it wasn't possible to get any meaningful code down unfortunately).
+
+I've taken down everything from AWS so I don't go over their limits, but good to have everything set up for when I'll need to host things up there. Come to think of it I'm not convinced that the client and server sides need to be on different instances, though I can address that later. Now the key is to set up the front-end development drive in a way that is sustainable and doesn't lead to getting stuck in knots half way through. 
+
+Definitely we need the sketch design done of the client referral wizard, once we have this I'll come back and comment further on where we can go from there.
