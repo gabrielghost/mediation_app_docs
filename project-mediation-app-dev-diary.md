@@ -484,3 +484,7 @@ I've taken down everything from AWS so I don't go over their limits, but good to
 Definitely we need the sketch design done of the client referral wizard, once we have this I'll come back and comment further on where we can go from there.
 
 Ok so I've plotted out the client referral wizards and actually what will be the best thing to build now is the case show page - this is the main central point for the client accounts, and will be the main page that the users navigate to once they log in. Perhaps we could have them go straight to the wizard, but for now they flow via the case show page - it might be nice to introduce that first before inputting data so the clients know why their data is being input and they are aware that it's not just any old form, it's actually an important part of the process.
+
+As I've been working through the front-end I've been coming up against issues with the API routes. If you're logged in as user X, then retrieving the appropriate case should be straightforward. Something to work on tomorrow.
+
+Depending on what kind of user you are, the logged in homepage will be different. If you're a client there is no reason to have the case index page as the homepage, as there will only ever be one case, but that is easily circumvented, probably best to arrange it so that the index page is there, and then can amend it for the clients. So on this basis probably the first page to start on is in fact the case index page, contrary to my earlier remarks....
